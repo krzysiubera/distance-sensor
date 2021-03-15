@@ -18,6 +18,8 @@ Connections between HC-SR04 module and FRDM-KL05Z board:
 
 Connections between LCD display and FRDM-KL05Z board:
 
+![connections_lcd](https://user-images.githubusercontent.com/46610012/111233209-d4914b80-85ec-11eb-98d4-6bdc566b52d9.png)
 
+## How it works
 
 
