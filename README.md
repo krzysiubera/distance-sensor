@@ -1,5 +1,5 @@
 # distance-sensor
-The purpose of this project was to create a distance sensor based on FRDM-KL05Z board. It utilises HC-SR04 module and LCD display. Connections between HC-SR04 and board:
+The purpose of this project was to create a distance sensor based on FRDM-KL05Z board. It utilises HC-SR04 module and LCD display. Connections between HC-SR04 and board:/n
 Vcc-> +5 V
 Trigger-> PTA12
 Echo-> PTB11
