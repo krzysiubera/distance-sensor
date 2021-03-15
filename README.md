@@ -14,5 +14,10 @@ The purpose of this project was to create a distance sensor based on FRDM-KL05Z 
 
 Connections between HC-SR04 module and FRDM-KL05Z board:
 
+![connections_hrsc0](https://user-images.githubusercontent.com/46610012/111233088-a01d8f80-85ec-11eb-98da-697eeab18dea.png)
+
+Connections between LCD display and FRDM-KL05Z board:
+
+
 
 
