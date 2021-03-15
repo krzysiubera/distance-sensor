@@ -21,5 +21,7 @@ Connections between LCD display and FRDM-KL05Z board:
 ![connections_lcd](https://user-images.githubusercontent.com/46610012/111233209-d4914b80-85ec-11eb-98d4-6bdc566b52d9.png)
 
 ## How it works
-
+To start measurement, you need to supply a short 10 us pulse to the trigger input. This pin has been configured in mode 'edge-aligned PWM low-true pulses (set output on match,
+clear output on reload)' to achieve mentioned task. After that, impulse appears on the echo input. Pulse width is proportional to measured distance. To measure it, echo pin has
+been configured in mode 'input capture, capture on rising and falling edge'. A distance is displayed on the LCD display, in centimeters.
 
