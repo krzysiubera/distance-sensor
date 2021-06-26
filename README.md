@@ -3,13 +3,23 @@ The purpose of this project was to enable distance measurement based on the HC-S
 
 ## Components used in the project
 - FRDM-KL05Z development board
-<img src="images/frdm.png" />
+<img src="images/frdm.jpg" />
 - HC-SR04 ultrasonic module
 <img src="images/hcsr04.png" />
 - LCD display
 <img src="images/lcd.png" />
 
-# Physical connections
+## Physical connections between the HC-SR04 module and the board
+- Vcc <-> +5V
+- Trigger <-> PTA12
+- Echo <-> PTB11
+- Gnd <-> GND
+
+## Physical connections between the LCD display and the board
+- SCL <-> PTB3
+- SDA <-> PTB4
+- Vcc <-> +5 V
+- Gnd <-> GND
 
 ## How it works
 To start measurement, you need to supply a short 10 us pulse to the trigger input. This pin has been configured in mode 'edge-aligned PWM low-true pulses (set output on match,
